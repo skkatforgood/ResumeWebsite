@@ -1,0 +1,71 @@
+@charset "UTF-8";
+body{
+    background-color: rgb(80, 85, 105);
+}
+
+#NavBackDrop{
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    top: -8px;
+    left: -8px;
+    
+    margin: 0px;
+
+    width: 100%;
+    height: 150px;
+}
+
+#Logo{
+    left: 20px;
+    position: relative;
+    text-decoration: none;
+    font-family: 'Neomuris';
+    letter-spacing: 5px;
+    font-weight: bolder;
+    width: 40px;
+    display: block;
+}
+
+#LogoL1{
+    color: whitesmoke;
+    font-size: 40pt;
+    margin: 0px;
+    padding: 10px;
+    padding-bottom: 0px;
+    position: relative;
+    width: 85px;
+}
+
+#LogoL2{
+    color: whitesmoke;
+    font-size: 40pt;
+    margin: 0px;
+    padding: 10px;
+    padding-top: 0px;
+    position: relative;
+    
+}
+
+#Logo_{
+    color: whitesmoke;
+    font-size: 40pt;
+    left: 55px;
+    top: -72px;
+    margin: 0px;
+    padding: 10px;
+    padding-top: 0px;
+    position: relative;
+    animation: Flash 4s infinite;
+}
+
+@keyframes Flash {
+    49.9%{color: whitesmoke;}
+    50% {color: black;}
+    99.9%{color: black;}
+    100% {color: whitesmoke;}
+}
+
+@font-face {
+    font-family: "Neomuris";
+    src: url(./Blade.ttf);
+}
