@@ -5,7 +5,7 @@ body{
 
 #NavBackDrop{
     background-color: rgb(0, 0, 0);
-    position: relative;
+    position: fixed;
     top: -8px;
     left: -8px;
     
@@ -19,7 +19,7 @@ body{
     left: 20px;
     position: relative;
     text-decoration: none;
-    font-family: 'Neomuris';
+    font-family: 'Blade';
     letter-spacing: 5px;
     font-weight: bolder;
     width: 40px;
@@ -66,6 +66,29 @@ body{
 }
 
 @font-face {
-    font-family: "Neomuris";
+    font-family: "Blade";
     src: url(./Blade.ttf);
+}
+
+@font-face {
+    font-family: "PCBius";
+    src: url(./PCBius.ttf);
+}
+
+.aboutme{
+    font-family: 'PCBius';
+    position: relative;
+    top: 160px;
+    border-width: 2px;
+    border-color: black;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+#AboutMeHeader{
+
+}
+
+#AboutMeText{
+
 }
