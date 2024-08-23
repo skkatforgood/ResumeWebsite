@@ -75,20 +75,34 @@ body{
     src: url(./PCBius.ttf);
 }
 
+@font-face {
+    font-family: "Montserrat";
+    src: url(./Montserrat-Regular.ttf);
+}
+
 .aboutme{
-    font-family: 'PCBius';
     position: relative;
     top: 160px;
     border-width: 2px;
     border-color: black;
     color: whitesmoke;
-    font-weight: bold;
 }
 
 #AboutMeHeader{
-
+    font-family: 'PCBius';
+    font-weight: bold;
 }
 
 #AboutMeText{
+    font-family: 'Montserrat';
+}
 
+#ProjectsHeader{
+    margin-top: 190px;
+    font-family: "PCBius";
+    text-align: center;
+    color: whitesmoke;
+    position: relative;
+    font-weight: bold;
+    font-size: 40pt;
 }
